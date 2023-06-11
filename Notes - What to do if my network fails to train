@@ -1,10 +1,19 @@
 reasons for training failed:
-    reached critical point
+
+    reached critical point(gradient = 0)
         local minima
         saddle point
+        smaller batch size + momentum may help escape critical points
+        
     learning rate was fixed
         use adaptive learning rate
+            large step at flat error face
+        learning rate scheduling 
+            learning rate decay
+            warm up
+            
     batch size was large
         use smaller batch size
+        
     loss function was not approriate
-        consider for classfication
+        consider cross entropy for classfication
