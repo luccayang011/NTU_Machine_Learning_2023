@@ -1,0 +1,10 @@
+reasons for training failed:
+    reached critical point
+        local minima
+        saddle point
+    learning rate was fixed
+        use adaptive learning rate
+    batch size was large
+        use smaller batch size
+    loss function was not approriate
+        consider for classfication
