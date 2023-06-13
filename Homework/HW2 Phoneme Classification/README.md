@@ -4,10 +4,10 @@
 
 <p>
   <b>Hyper Parameter Tuning:</b><br />
-concat_nframes: 3 -> 21<br />
-hidden layer : 12 -> 6<br />
-hidden dimention: 256 -> 128<br />
-accuracy: 0.6484
+concat_nframes: 3 -> 17<br />
+hidden layer : 2 -> 12<br />
+hidden dimention: 64 -> 384<br />
+accuracy: 0.65651
 </p>
 
 
