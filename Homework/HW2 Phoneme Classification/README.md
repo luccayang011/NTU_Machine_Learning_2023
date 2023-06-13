@@ -1,6 +1,7 @@
 <p>
   Baseline model accuracy: 0.49814
 </p>
+<hr />
 
 <p>
   <b>Step 1: Hyper Parameter Tuning</b><br />
