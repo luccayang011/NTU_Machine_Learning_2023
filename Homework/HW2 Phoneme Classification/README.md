@@ -4,11 +4,10 @@
 
 <p>
   <b>Hyper Parameter Tuning:</b><br />
-concat_nframes: 3 -> 19<br />
-train ratio : 0.75 -> 0.8<br />
-hidden layer : 2 -> 6<br />
-hidden dimention: 64 -> 128<br />
-accuracy: 
+concat_nframes: 3 -> 21<br />
+hidden layer : 12 -> 6<br />
+hidden dimention: 256 -> 128<br />
+accuracy: 0.6484
 </p>
 
 
