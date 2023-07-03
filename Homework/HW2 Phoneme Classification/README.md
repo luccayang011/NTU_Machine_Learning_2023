@@ -1,3 +1,4 @@
+<h1>Analyze & Results</h1>
 <p>
   I first ran the base model and got this accuracy rate: <b>0.49814</b>
 </p>
@@ -22,8 +23,8 @@
 </p>
 
 <p>
-  After tuning the hyperparameter several times, and modifying the model instructions, I got a model with an accuracy of , here are the final parameter sets:
-  <h2>Hyperparameters</h2>
+  After tuning the hyperparameter several times, and modifying the model instructions, I got a model with an accuracy of <b>0.75609</b>, here are the final parameter sets:
+  <h3>Hyperparameters</h3>
   <ul>
     <li>concat_nframes : 3 -> 19</li>
     <li>train_ratio : 0.75 -> 0.9 </li>
@@ -31,14 +32,15 @@
     <li>num epoch : 10 -> 50 </li>
     <li>hidden layer : 2 -> 6 </li>
     <li>hidden dimension : 64 -> 1024</li>
-    <li></li>
-    <li></li>
   </ul>
-    <h2>Model Structure</h2>
+    <h3>Model Structure</h3>
   <ul>
     <li>applied batch normalization</li>
     <li>applied dropout, rate = 0.25</li>
   </ul>
 </p>
 
+<h1>Future Work</h1>
+Though my model passed the strong baseline, it didn't pass the boss one. Can consider applying a more complex model, like RNN.
 
+<h1>Reference Materials</h1>
