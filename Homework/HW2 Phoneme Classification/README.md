@@ -44,3 +44,7 @@
 Though my model passed the strong baseline, it didn't pass the boss one. Can consider applying a more complex model, like RNN.
 
 <h1>Reference Materials</h1>
+<ul>
+  <li><a href="https://blog.csdn.net/iwill323/article/details/127812090?spm=1001.2101.3001.6650.4&utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-4-127812090-blog-120186614.235%5Ev38%5Epc_relevant_anti_vip&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-4-127812090-blog-120186614.235%5Ev38%5Epc_relevant_anti_vip&utm_relevant_index=9">A homework done by others which contains many useful resources (language is in Chinese)</a></li>
+   <li><a href="https://zhuanlan.zhihu.com/p/483475612">Another homework, this one made me realize that no need to think about the things I haven't learned yet, like scheduler, I can just focus on finding the parameter sets that can make the model pass the strong baseline.(language is in Chinese)</a></li>
+</ul>
