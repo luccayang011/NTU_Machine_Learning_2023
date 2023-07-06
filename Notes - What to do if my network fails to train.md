@@ -1,16 +1,15 @@
 <h1>Reasons for Training Failed & How to fix</h1>
 <ol>
 <li>Reached Critical Point (gradient = 0)
-        <ul>
-                <li> Critical point type:
-                                <ul>
-                                        <li>local minima</li>
-                                        <li>saddle point</li>
-                                </ul>
-                </li>
-
-                <li> smaller batch size + momentum may help escape critical points </li>
-        </ul>
+    <ul>
+        <li> Critical point type:
+            <ul>
+                <li>local minima</li>
+                <li>saddle point</li>
+            </ul>
+        </li>
+        <li> smaller batch size + momentum may help escape critical points </li>
+    </ul>
 </li>
 <li>learning rate was fixed
         <ul>
