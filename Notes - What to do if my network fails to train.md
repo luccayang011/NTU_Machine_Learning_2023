@@ -1,20 +1,43 @@
-<h1>reasons for training failed</h1>
+<h1>Reasons for Training Failed & How to fix</h1>
 <ol>
-<li>reached critical point(gradient = 0)</li>
-        local minima
-        saddle point
-        smaller batch size + momentum may help escape critical points
-        
-<li>learning rate was fixed</li>
-        use adaptive learning rate
-            large step at flat error face
-        learning rate scheduling 
-            learning rate decay
-            warm up
-            
-<li>batch size was large</li>
-        use smaller batch size
-        
-<li>loss function was not appropriate</li>
-        consider cross entropy for classification
-<ol>
+<li>Reached Critical Point (gradient = 0)
+        <ul>
+                <li> Critical point type:
+                                <ul>
+                                        <li>local minima</li>
+                                        <li>saddle point</li>
+                                </ul>
+                </li>
+
+                <li> smaller batch size + momentum may help escape critical points </li>
+        </ul>
+</li>
+<li>learning rate was fixed
+        <ul>
+                <li>use adaptive learning rate
+                <ul>
+                         <li>large step at flat error face</li>
+                </ul>
+                 </li>
+        </ul>
+         <ul>
+                <li>learning rate scheduling </li>
+                <ul>
+                        <li>learning rate decay</li>
+                        <li>warm up</li>
+                </ul>                 
+        </ul>
+</li>
+
+<li>batch size was large
+        <ul>
+                <li>use smaller batch size</li>
+        </ul>
+</li>    
+<li>loss function was not appropriate
+        <ul>
+                <li>consider cross entropy for classification</li>
+        </ul>
+
+</li>
+</ol>
